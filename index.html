@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Assignment</title>
+    <script src="app.js"></script>
+</head>
+    <!-- TASK NO 7 OF Chap # 1 -->
+    <!-- <script>
+        alert("Its a use of script tag before the body tag");
+    </script> -->
+<body>
+    <!-- TASK NO 6 and  7 of Chap # 1-->
+    <!-- <script>
+        alert("I am Shayan...");
+    </script>
+    <h1>Hello</h1>
+    <script>
+        alert("Hello");
+    </script>
+    <h1>Hello 2</h1>
+    <script>
+        alert("Hello 2");
+        alert("Its a use of script tag inside the body tag");
+    </script> -->
+
+
+    <!-- Question 5 Ch 9 to 11 -->
+<br><br>
+<!-- <table id="table" style="border: 1px solid black;">
+   <tr>
+       <td>Subject</td>
+       <td>Total Marks</td>
+       <td>Marks Obtained</td>
+       <td>Percentage</td>
+   </tr>
+   <tr>
+    <td class="sub"></td>
+    <td class="total"></td>
+    <td class="obtained"></td>
+    <td><span class="percentage"></span>%</td>
+
+   </tr>
+   <tr>
+    <td class="sub"></td>
+    <td class="total"></td>
+    <td class="obtained"></td>
+    <td ><span class="percentage"></span>%</td>
+
+   </tr>
+   <tr>
+    <td class="sub"></td>
+    <td class="total"></td>
+    <td class="obtained"></td>
+    <td ><span class="percentage"></span>%</td>
+
+   </tr>
+   <tr>
+    <td></td>
+    <td id="total_total"></td>
+    <td id = "total_obtained"></td>
+    <td><span id="avg_percent"></span>%</td>
+
+   </tr>
+</table>
+
+<script>
+    var subs = document.getElementsByClassName("sub");
+    var total_m = document.getElementsByClassName("total");
+    var obtained_m = document.getElementsByClassName("obtained");
+    var percentage = document.getElementsByClassName("percentage")
+
+    var total_total = document.getElementById("total_total");
+    var total_obtained = document.getElementById("total_obtained");
+    var avg_percent = document.getElementById("avg_percent");
+
+    var total_list = [];
+    var obtained_list = [];
+    var percent_list = [];
+
+    for(i = 0; i < subs.length; i++){
+
+        var subject = prompt("Enter subject name:");
+        subs[i].innerHTML = subject;
+
+        var total_n = parseInt(prompt("Enter total marks"));
+        total_m[i].innerHTML = total_n;
+        total_list.push(total_n);
+
+        var obtained_n = parseInt(prompt("Enter Obtained marks"));
+        obtained_m[i].innerHTML = obtained_n;
+        obtained_list.push(obtained_n)
+
+        var percent = parseFloat((obtained_n/total_n)*100);
+        percentage[i].innerHTML = percent;
+        percent_list.push(percent);
+        
+    }
+    // Sum of total, obtained and percentage
+    var sum_total = total_list.reduce(function(a, b){
+        return a + b;
+    }, 0);
+    total_total.innerHTML = sum_total;
+
+    var sum_obtained = obtained_list.reduce(function(a,b){
+        return a+b;
+    },0);
+    total_obtained.innerHTML = sum_obtained;
+
+    var sum_percent = percent_list.reduce(function(a,b){
+        return a + b;
+    },0);
+    avg_percent.innerHTML = (sum_percent/(percent_list.length));
+</script> -->
+
+    
+    <!-- TASK NO 15 of Chap # 14-16 -->
+    <!-- <select name="abc" id="selects">
+
+    </select>
+    <script>
+        var select = document.createElement("selects");
+        var array = ['Apple', 'Samsung', "Motorolla", 'Nokia', 'Sony', 'Haier'];
+        for(i = 0; i < array.length; i++){
+            var option = document.createElement("option");
+            option.innerHTML = array[i];
+            selects.appendChild(option);
+        }
+    </script> -->
+</body>
+    <!-- TASK NO 7 OF Chap # 1 -->
+    <!-- <script>
+        alert("Its a use of script tag after the body tag");
+    </script> -->
+</html>
